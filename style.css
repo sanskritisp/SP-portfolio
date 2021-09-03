@@ -6,3 +6,153 @@
     --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
+hr {
+    margin: 2rem ;
+}
+.margin-md {
+    margin: 2rem;
+}
+.container {
+    padding: 0rem 1rem;
+}
+/* for center container */
+.center {
+    max-width: 600px;
+    margin: auto;
+}
+/* styling for links */
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.primarylink { 
+    background-color: var(--primary-color);
+    /* color: var(--primary-color); */
+    border-radius: 1.5rem;
+    color: white;
+    display: block;
+    max-width: 150px;
+    margin: 2rem 1rem 1rem;
+}
+
+.seclink {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 1.5rem;
+    /* border: 1px solid var(--primary-color); */
+    display: block;
+    max-width: 150px;
+    margin: 2rem 1rem 1rem ;
+}
+/* for styling of lists */
+
+.listnonbullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.listiteminline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    border-end-start-radius: 3rem;
+}
+/* for navigation */
+.navigation .nav-brand {
+    font-weight: bold;
+}
+
+.navigation .nav-decor {
+    text-align: right;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .active {
+    font-weight: bold;
+    text-decoration: salmon;
+}
+
+/* for header */
+
+.head {
+    padding: 3rem;
+    padding-top: 4rem;
+
+}
+
+.head .head-img {
+    max-width: 100%;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.head .head-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--primary-color);
+}
+
+.head .head-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/* for sections */
+
+.section {
+    color: var(--primary-color);
+    padding: 3rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.offwhite {
+    background-color: var(--off-white);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/** footers **/
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 4rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+/* .footer ul {
+    padding-inline-start: 0px;
+} */
+
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
+}
