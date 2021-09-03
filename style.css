@@ -152,8 +152,11 @@ hr {
     background-color: var(--off-white);
     
 } 
+/* blogs page */
 
-/** blogs **/
-/* .showcase-blog {
+    
+ .showcase-blog {
     padding-bottom: 6rem;
-} */ 
+} 
+
+
