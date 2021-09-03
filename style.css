@@ -146,11 +146,12 @@ hr {
 /* .footer ul {
     padding-inline-start: 0px;
 } */
-
-/* * projects *
+ /* Project page */
 .showcase-list {
     padding: 2rem;
-}
+    background-color: var(--off-white);
+    
+} 
 
 /** blogs **/
 /* .showcase-blog {
